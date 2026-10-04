@@ -34,7 +34,7 @@ Use a supported PostgreSQL engine version in standard support; avoid an old vers
 
 No NAT gateway, Elastic IP, RDS Proxy, read replica or load balancer is required. The S3 gateway endpoint has no additional endpoint charge. EC2 and RDS are still billable services outside covered offers. Alerts are notifications, not a hard cost cap. Delete lab resources after finishing; stopping RDS/EC2 does not remove storage charges, and RDS can restart automatically after its permitted stop period.
 
-## 1. Build the VPC
+### 1. Build VPC
 
 Use one Region throughout; commands below use `us-east-1`. Choose two normal Availability Zones available in your account. Replace AZ names if needed.
 
