@@ -4,17 +4,17 @@
     {
       "Effect": "Allow",
       "Action": "s3:GetObject",
-      "Resource": "arn:aws:s3:::REPLACE_WITH_BUCKET_NAME/raw/*"
+      "Resource": "arn:aws:s3:::s3-retail-store-taha-2026/raw/*"
     },
     {
       "Effect": "Allow",
       "Action": "s3:PutObject",
-      "Resource": "arn:aws:s3:::REPLACE_WITH_BUCKET_NAME/reports/*"
+      "Resource": "arn:aws:s3:::s3-retail-store-taha-2026/reports/*"
     },
     {
       "Effect": "Allow",
       "Action": "s3:DeleteObject",
-      "Resource": "arn:aws:s3:::REPLACE_WITH_BUCKET_NAME/reports/*/_SUCCESS.json"
+      "Resource": "arn:aws:s3:::s3-retail-store-taha-2026/reports/*/_SUCCESS.json"
     }
   ]
 }
